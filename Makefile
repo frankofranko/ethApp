@@ -10,7 +10,6 @@ connect_dbshell:
 
 migrate:
 	migrate -database "postgres://root:secret@localhost:5432/eth_db?sslmode=disable" -path db/migrations up
-	#migrate -database "postgres://eth:password@localhost:5402/eth_db" -path db/migrations up
 
 setup: stopdb startdb migrate
 
