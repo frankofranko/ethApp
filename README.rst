@@ -44,7 +44,8 @@ Indexer
 
 Indexer is a worker pool handling the unprocessed block number > $(block_num).
 
-Start indexer
+Start indexer:
+
 Please replace the block_num to a reasonable number if you don't want to start with a big overhead.
 
 .. code-block:: bash
