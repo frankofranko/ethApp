@@ -17,6 +17,7 @@ Setup
 ============
 
       .. code-block:: bash
+      
          make setup
 
 
